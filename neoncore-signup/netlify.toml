@@ -1,8 +1,9 @@
 [build]
+base = "neoncore-signup"
 command = "npm run build"
-publish = "dist"
+publish = "neoncore-signup/dist"
 
 [[redirects]]
-from = "/"
+from = "/*"
 to = "/index.html"
 status = 200
